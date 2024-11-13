@@ -1,0 +1,114 @@
+/* Global Styles */
+.app-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://wallpaperaccess.com/full/8108999.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading Styles */
+  .heading {
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient */
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Input Styles */
+  .input-container {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .todo-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    margin-right: 10px;
+    transition: 0.3s ease;
+  }
+  
+  .todo-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .todo-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Todo List Styles */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .todo-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .todo-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .todo-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Button Styles */
+  .todo-actions button {
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .todo-actions button:hover {
+    transform: scale(1.1);
+  }
+  
+  .todo-actions .btn-success {
+    background-color: #28a745;
+  }
+  
+  .todo-actions .btn-warning {
+    background-color: #ffc107;
+  }
+  
+  .todo-actions .btn-danger {
+    background-color: #dc3545;
+  }
+  
+  
+  
